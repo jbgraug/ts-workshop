@@ -1,0 +1,22 @@
+{ // https://www.typescriptlang.org/play/
+  "compilerOptions": {
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "target": "es6",
+    "lib": ["es5", "es6"],
+    "noImplicitAny": true,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "outDir": "dist",
+    "baseUrl": ".",
+    "paths": {
+     // "*": ["node_modules/*"]
+    },
+    "resolveJsonModule": true,
+    "removeComments": true
+  },
+  "include": ["src/**/*", "api.ts"],
+  "exclude": ["node_modules/"]
+}

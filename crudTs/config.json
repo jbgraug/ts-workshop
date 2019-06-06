@@ -1,0 +1,6 @@
+{
+    "db": {
+        "connection": "mongodb+srv://app_admin:k@r@k0l@jggcluster-tejxy.mongodb.net/",
+        "name": "test"
+    }
+}
